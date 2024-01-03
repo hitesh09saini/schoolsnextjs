@@ -5,10 +5,10 @@ const School = ({ data }) => {
   return (
     <div className='p-2 shadow-xl  bg-gray-200 rounded '>
       <div className='flex items-center'>
-        <img src={data.image||img} alt=""  className='hover:scale-150 h-[100px] w-[100px] rounded-full border border-[5px] border-black m-2 ' />
-        {/* <Image 
+        {/* <img src={data.image||img} alt=""  className='hover:scale-150 h-[100px] w-[100px] rounded-full border border-[5px] border-black m-2 ' /> */}
+        <Image 
          alt='img' src={data.image || img} className='hover:scale-150  rounded-full border border-[5px] border-black m-2 ' >
-        </Image> */}
+        </Image>
         <h1 className='text-3xl fontbold'>
           {data.name || "XYZ college of engineering"}
         </h1>
